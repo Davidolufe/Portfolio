@@ -1,0 +1,12 @@
+SERVICEPOINT — YOUR PROJECT PACKAGE
+
+1. Extract the ZIP on your laptop: right-click the downloaded ZIP > Extract All.
+2. Open the extracted ServicePoint folder.
+3. Double-click OPEN_DASHBOARD.html to view the interactive dashboard in your browser.
+4. Use Month, Channel and Contact reason to filter the dashboard. Use Reset filters to return to all 720 cases.
+5. Open ServicePoint_Analysis.xlsx to see the Excel workbook and source cases.
+6. Read TWO_DAY_LEARNING_GUIDE.md when you are ready to learn. Markdown (.md) files are plain text and open in Notepad; they also display with formatting on GitHub.
+
+The dashboard works offline. You do not need to install anything to view it.
+Power BI files: the package includes an import guide and DAX measures, not a native PBIX.
+All customer data are fictional. This project was prepared with AI assistance for guided learning.

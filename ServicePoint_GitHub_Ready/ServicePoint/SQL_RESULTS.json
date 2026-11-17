@@ -1,0 +1,309 @@
+{
+  "1. Data quality and coverage": [
+    {
+      "case_count": 720,
+      "unique_cases": 720,
+      "first_date": "2026-05-01",
+      "last_date": "2026-10-31",
+      "missing_csat": 164,
+      "unexpected_email_waits": 0
+    }
+  ],
+  "2. Overall service measures": [
+    {
+      "cases": 720,
+      "confirmed_fcr_pct": 49.7,
+      "repeat_case_pct": 26.8,
+      "complaint_pct": 20.7,
+      "avg_resolution_hours": 22.52,
+      "avg_csat": 3.91,
+      "survey_responses": 556,
+      "response_pct": 77.2,
+      "avg_live_wait_minutes": 8.28
+    }
+  ],
+  "3. Contact reason comparison": [
+    {
+      "Contact_Reason": "Billing",
+      "cases": 215,
+      "confirmed_fcr_pct": 33.5,
+      "repeat_case_pct": 38.1,
+      "complaint_pct": 27.4,
+      "avg_resolution_hours": 29.77,
+      "avg_csat": 3.68,
+      "survey_responses": 174
+    },
+    {
+      "Contact_Reason": "Technical fault",
+      "cases": 204,
+      "confirmed_fcr_pct": 34.8,
+      "repeat_case_pct": 36.8,
+      "complaint_pct": 27.5,
+      "avg_resolution_hours": 32.48,
+      "avg_csat": 3.72,
+      "survey_responses": 164
+    },
+    {
+      "Contact_Reason": "Installation",
+      "cases": 129,
+      "confirmed_fcr_pct": 71.3,
+      "repeat_case_pct": 14.0,
+      "complaint_pct": 10.1,
+      "avg_resolution_hours": 9.42,
+      "avg_csat": 4.17,
+      "survey_responses": 92
+    },
+    {
+      "Contact_Reason": "Cancellation",
+      "cases": 97,
+      "confirmed_fcr_pct": 70.1,
+      "repeat_case_pct": 9.3,
+      "complaint_pct": 10.3,
+      "avg_resolution_hours": 11.99,
+      "avg_csat": 4.28,
+      "survey_responses": 69
+    },
+    {
+      "Contact_Reason": "Account update",
+      "cases": 75,
+      "confirmed_fcr_pct": 73.3,
+      "repeat_case_pct": 12.0,
+      "complaint_pct": 14.7,
+      "avg_resolution_hours": 10.78,
+      "avg_csat": 4.26,
+      "survey_responses": 57
+    }
+  ],
+  "4. Monthly performance": [
+    {
+      "Month": "2026-05",
+      "cases": 120,
+      "confirmed_fcr_pct": 54.2,
+      "repeat_case_pct": 24.2,
+      "avg_resolution_hours": 20.03,
+      "avg_live_wait_minutes": 6.54
+    },
+    {
+      "Month": "2026-06",
+      "cases": 120,
+      "confirmed_fcr_pct": 45.0,
+      "repeat_case_pct": 35.0,
+      "avg_resolution_hours": 20.81,
+      "avg_live_wait_minutes": 6.67
+    },
+    {
+      "Month": "2026-07",
+      "cases": 120,
+      "confirmed_fcr_pct": 46.7,
+      "repeat_case_pct": 29.2,
+      "avg_resolution_hours": 21.13,
+      "avg_live_wait_minutes": 6.89
+    },
+    {
+      "Month": "2026-08",
+      "cases": 120,
+      "confirmed_fcr_pct": 53.3,
+      "repeat_case_pct": 25.0,
+      "avg_resolution_hours": 22.1,
+      "avg_live_wait_minutes": 10.93
+    },
+    {
+      "Month": "2026-09",
+      "cases": 120,
+      "confirmed_fcr_pct": 53.3,
+      "repeat_case_pct": 25.0,
+      "avg_resolution_hours": 20.94,
+      "avg_live_wait_minutes": 10.71
+    },
+    {
+      "Month": "2026-10",
+      "cases": 120,
+      "confirmed_fcr_pct": 45.8,
+      "repeat_case_pct": 22.5,
+      "avg_resolution_hours": 30.11,
+      "avg_live_wait_minutes": 7.44
+    }
+  ],
+  "5. Channel comparison": [
+    {
+      "Channel": "Phone",
+      "cases": 364,
+      "avg_resolution_hours": 21.2,
+      "avg_live_wait_minutes": 8.12,
+      "survey_responses": 290,
+      "avg_csat": 3.95
+    },
+    {
+      "Channel": "Email",
+      "cases": 187,
+      "avg_resolution_hours": 25.35,
+      "avg_live_wait_minutes": null,
+      "survey_responses": 136,
+      "avg_csat": 3.93
+    },
+    {
+      "Channel": "Web chat",
+      "cases": 169,
+      "avg_resolution_hours": 22.22,
+      "avg_live_wait_minutes": 8.62,
+      "survey_responses": 130,
+      "avg_csat": 3.79
+    }
+  ],
+  "6. Repeat cases versus repeat interactions": [
+    {
+      "Contact_Reason": "Billing",
+      "repeat_cases": 82,
+      "total_repeat_contacts": 108
+    },
+    {
+      "Contact_Reason": "Technical fault",
+      "repeat_cases": 75,
+      "total_repeat_contacts": 117
+    },
+    {
+      "Contact_Reason": "Installation",
+      "repeat_cases": 18,
+      "total_repeat_contacts": 26
+    },
+    {
+      "Contact_Reason": "Cancellation",
+      "repeat_cases": 9,
+      "total_repeat_contacts": 12
+    },
+    {
+      "Contact_Reason": "Account update",
+      "repeat_cases": 9,
+      "total_repeat_contacts": 9
+    }
+  ],
+  "7. Initial resolution later followed by repeat contact": [
+    {
+      "Case_ID": "SP0059",
+      "Opened_Date": "2026-05-10",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0095",
+      "Opened_Date": "2026-05-23",
+      "Contact_Reason": "Installation",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0136",
+      "Opened_Date": "2026-06-07",
+      "Contact_Reason": "Billing",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0424",
+      "Opened_Date": "2026-08-16",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0553",
+      "Opened_Date": "2026-09-30",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0585",
+      "Opened_Date": "2026-09-16",
+      "Contact_Reason": "Installation",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0654",
+      "Opened_Date": "2026-10-07",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 3
+    },
+    {
+      "Case_ID": "SP0069",
+      "Opened_Date": "2026-05-17",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0071",
+      "Opened_Date": "2026-05-25",
+      "Contact_Reason": "Billing",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0076",
+      "Opened_Date": "2026-05-08",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0085",
+      "Opened_Date": "2026-05-03",
+      "Contact_Reason": "Billing",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0110",
+      "Opened_Date": "2026-05-31",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0137",
+      "Opened_Date": "2026-06-19",
+      "Contact_Reason": "Billing",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0138",
+      "Opened_Date": "2026-06-24",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0141",
+      "Opened_Date": "2026-06-29",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0143",
+      "Opened_Date": "2026-06-29",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0145",
+      "Opened_Date": "2026-06-14",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0167",
+      "Opened_Date": "2026-06-02",
+      "Contact_Reason": "Billing",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0188",
+      "Opened_Date": "2026-06-06",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    },
+    {
+      "Case_ID": "SP0213",
+      "Opened_Date": "2026-06-23",
+      "Contact_Reason": "Technical fault",
+      "Repeat_Contacts_7_Days": 2
+    }
+  ],
+  "8. Example filtered slice: May phone cases": [
+    {
+      "cases": 53,
+      "confirmed_fcr_pct": 50.9,
+      "avg_csat": 4.0
+    }
+  ]
+}
