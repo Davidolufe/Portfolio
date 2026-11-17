@@ -1,0 +1,38 @@
+Extra Staffing Cost = SUM(Workforce[Total_Extra_Staff_Cost_GBP])
+
+Overtime Cost = SUM(Workforce[Overtime_Cost_GBP])
+
+Agency Cost = SUM(Workforce[Agency_Cost_GBP])
+
+Agency Share = DIVIDE([Agency Cost], [Extra Staffing Cost])
+
+Vacancy Count = SUM(Workforce[Vacancies])
+
+Average Monthly Vacancies = DIVIDE([Vacancy Count], DISTINCTCOUNT(Workforce[Month]))
+
+Sickness Days = SUM(Workforce[Sickness_Days])
+
+Overtime Hours = SUM(Workforce[Overtime_Hours])
+
+Agency Hours = SUM(Workforce[Agency_Hours])
+
+Available Bed Months = SUMX(SUMMARIZE(Workforce, Workforce[Month], Workforce[Care_Home]), CALCULATE(MAX(Workforce[Available_Beds])))
+
+Occupied Bed Months = SUMX(SUMMARIZE(Workforce, Workforce[Month], Workforce[Care_Home]), CALCULATE(MAX(Workforce[Occupied_Beds])))
+
+Occupancy = DIVIDE([Occupied Bed Months], [Available Bed Months])
+
+Net FTE Gap = SUM(Workforce[Budgeted_Staff_FTE]) - SUM(Workforce[Actual_Staff_FTE])
+
+Home Month Observations = COUNTROWS(SUMMARIZE(Workforce, Workforce[Month], Workforce[Care_Home]))
+
+Vacancy Cost Correlation = VAR Points = ADDCOLUMNS(SUMMARIZE(Workforce, Workforce[Month], Workforce[Care_Home]), "__x", CALCULATE([Vacancy Count]), "__y", CALCULATE([Extra Staffing Cost]))
+VAR N = COUNTROWS(Points)
+VAR SX = SUMX(Points, [__x])
+VAR SY = SUMX(Points, [__y])
+VAR SXY = SUMX(Points, [__x] * [__y])
+VAR SXX = SUMX(Points, [__x] * [__x])
+VAR SYY = SUMX(Points, [__y] * [__y])
+VAR VX = N * SXX - SX * SX
+VAR VY = N * SYY - SY * SY
+RETURN IF(N < 2 || VX <= 0 || VY <= 0, BLANK(), DIVIDE(N * SXY - SX * SY, SQRT(VX * VY)))

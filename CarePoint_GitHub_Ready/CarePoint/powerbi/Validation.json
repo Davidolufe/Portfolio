@@ -1,0 +1,11 @@
+{
+  "status": "static validation passed",
+  "schema_validated_files": 39,
+  "visuals": 31,
+  "pages": 2,
+  "measures": 15,
+  "data_rows": 240,
+  "embedded_data_matches_original": true,
+  "source_sha256": "386fee5f6df6c661e45d37a235766fd2046dfd2c25bab4992d28c03ed590534f",
+  "runtime_validation": "David opened both pages in Power BI Desktop on 17 November 2026; visible headline figures matched and the care-home slicer changed the results. Other slicers, combinations and export have not been comprehensively verified."
+}

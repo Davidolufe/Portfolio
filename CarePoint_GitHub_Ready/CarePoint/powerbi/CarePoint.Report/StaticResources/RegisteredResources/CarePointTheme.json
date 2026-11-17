@@ -1,0 +1,28 @@
+{
+  "name": "CarePoint",
+  "dataColors": [
+    "#246BCE",
+    "#F29539",
+    "#24A79A",
+    "#8056D9",
+    "#DB5A78",
+    "#7088A6"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#17365D",
+  "tableAccent": "#246BCE",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#17365D"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#43536B"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#17365D"
+    }
+  }
+}
